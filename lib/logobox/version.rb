@@ -1,0 +1,3 @@
+module Logobox
+  VERSION = "0.0.1"
+end
