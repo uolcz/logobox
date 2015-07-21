@@ -3,7 +3,7 @@ require 'vcr'
 
 RSpec.configure do |config|
   config.around(:each, :vcr) do |example|
-    name = example.metadata[:full_description].gsub('::', '_').gsub(/[^\w\/]+/, "_")
+    name = example.metadata[:full_description].gsub('::', '/').gsub(/[^\w\/]+/, "_")
     VCR.use_cassette(name, {}, &example)
   end
 end

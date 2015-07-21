@@ -10,7 +10,7 @@ describe Logobox, :vcr do
 
     context 'size is given' do
       it 'creates basic url for logobox logo with size parameter' do
-        expect(Logobox.generate_logo_url(27169278, :small)).to eq 'http://www.logobox.cz/getimage.ashx?id=CZ27169278?size=small'
+        expect(Logobox.generate_logo_url(27169278, :small)).to eq 'http://www.logobox.cz/getimage.ashx?id=CZ27169278&size=small'
       end
 
       it "raises an ArgumentError if size isn't small, medium or big" do
@@ -28,7 +28,7 @@ describe Logobox, :vcr do
 
     context 'size is given' do
       it 'creates basic url for logobox logo with size parameter' do
-        expect(Logobox.generate_logo_url!(27169278, :small)).to eq 'http://www.logobox.cz/getimage.ashx?id=CZ27169278?size=small'
+        expect(Logobox.generate_logo_url!(27169278, :small)).to eq 'http://www.logobox.cz/getimage.ashx?id=CZ27169278&size=small'
       end
 
       it "raises an ArgumentError if size isn't small, medium or big" do
