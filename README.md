@@ -1,6 +1,6 @@
 # Logobox
 
-Logobox translates ICO of the company into appropriate logo url at logobox.cz
+Logobox translates [ICO](https://cs.wikipedia.org/wiki/Identifika%C4%8Dn%C3%AD_%C4%8D%C3%ADslo_osoby) of the company into appropriate logo url at www.logobox.cz
 
 It can check that the logo is uploaded and make the ICO validation.
 
