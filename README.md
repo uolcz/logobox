@@ -1,4 +1,5 @@
-# Logobox
+Logobox [![Build Status](https://travis-ci.org/ucetnictvi-on-line/logobox.svg?branch=master)](https://travis-ci.org/ucetnictvi-on-line/logobox) [![Code Climate](https://codeclimate.com/github/ucetnictvi-on-line/logobox/badges/gpa.svg)](https://codeclimate.com/github/ucetnictvi-on-line/logobox) [![Test Coverage](https://codeclimate.com/github/ucetnictvi-on-line/logobox/badges/coverage.svg)](https://codeclimate.com/github/ucetnictvi-on-line/logobox)
+=============
 
 Logobox translates [ICO](https://cs.wikipedia.org/wiki/Identifika%C4%8Dn%C3%AD_%C4%8D%C3%ADslo_osoby) of the company into appropriate logo url at www.logobox.cz
 

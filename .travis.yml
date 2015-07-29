@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+  - 2.2.2
+  - 2.2.1
+  - 2.0.0
+script: CODECLIMATE_REPO_TOKEN=20ecd379dda865f1b3db6aaf6524dc5fb5004d0141d66acaf790e493d50e4554 bundle exec rspec
