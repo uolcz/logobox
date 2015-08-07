@@ -1,7 +1,7 @@
 Logobox [![Build Status](https://travis-ci.org/ucetnictvi-on-line/logobox.svg?branch=master)](https://travis-ci.org/ucetnictvi-on-line/logobox) [![Code Climate](https://codeclimate.com/github/ucetnictvi-on-line/logobox/badges/gpa.svg)](https://codeclimate.com/github/ucetnictvi-on-line/logobox) [![Test Coverage](https://codeclimate.com/github/ucetnictvi-on-line/logobox/badges/coverage.svg)](https://codeclimate.com/github/ucetnictvi-on-line/logobox)
 =============
 
-[Logobox](http://www.logobox.cz/) is a database of Czech company logo. Currently it contains more than **13 000** logo.
+[Logobox](http://www.logobox.cz/) is a database of Czech company logos. Currently it contains more than **13 000** logos.
 
 This gem knows how to construct right URLs to those logos. It can also check if logo for company is present on Logobox. All you need is ICO of the company.
 
