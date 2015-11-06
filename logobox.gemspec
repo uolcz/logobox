@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_development_dependency "vcr", "~> 2.9"
   spec.add_development_dependency "webmock", "~> 1.21"
-  spec.add_development_dependency "ico-validator", "~> 0.4"
+  spec.add_dependency "ico-validator", "~> 0.4"
   spec.add_development_dependency "codeclimate-test-reporter"
 end
 

@@ -1,5 +1,7 @@
 require 'ico-validator/ico_validation'
 require 'logobox/version'
+require 'uri'
+require 'net/http'
 
 module Logobox
   class LogoNotFound < StandardError; end
